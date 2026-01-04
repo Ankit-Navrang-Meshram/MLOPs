@@ -1,0 +1,192 @@
+{
+    "Patient_1": {
+        "Patient_id": 1,
+        "Patient_Name": "Aditi Kumar Gupta",
+        "Patient_detail": {
+            "First_Name": "Aditi",
+            "Middle_Name": "Kumar",
+            "Last_Name": "Gupta",
+            "Weight": 74,
+            "Height": 181,
+            "Age": 61,
+            "Address": "Mumbai",
+            "Disease": "Flu",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Metformin",
+            "Time": "Night",
+            "BMI": 22.587833094227893,
+            "Verdict": "Normal"
+        }
+    },
+    "Patient_2": {
+        "Patient_id": 2,
+        "Patient_Name": "Aditi Prasad Sharma",
+        "Patient_detail": {
+            "First_Name": "Aditi",
+            "Middle_Name": "Prasad",
+            "Last_Name": "Sharma",
+            "Weight": 70,
+            "Height": 156,
+            "Age": 65,
+            "Address": "Bangalore",
+            "Disease": "Asthma",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Amlodipine",
+            "Time": "Morning",
+            "BMI": 28.763971071663377,
+            "Verdict": "Overweight"
+        }
+    },
+    "Patient_3": {
+        "Patient_id": 3,
+        "Patient_Name": "Neha  Patel",
+        "Patient_detail": {
+            "First_Name": "Neha",
+            "Middle_Name": "",
+            "Last_Name": "Patel",
+            "Weight": 65,
+            "Height": 179,
+            "Age": 45,
+            "Address": "Chandigarh",
+            "Disease": "Asthma",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Amlodipine",
+            "Time": "Afternoon",
+            "BMI": 20.286507911738084,
+            "Verdict": "Normal"
+        }
+    },
+    "Patient_4": {
+        "Patient_id": 4,
+        "Patient_Name": "Ankit Kumar Sharma",
+        "Patient_detail": {
+            "First_Name": "Ankit",
+            "Middle_Name": "Kumar",
+            "Last_Name": "Sharma",
+            "Weight": 62,
+            "Height": 187,
+            "Age": 33,
+            "Address": "Bangalore",
+            "Disease": "Cold",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Amlodipine",
+            "Time": "Afternoon",
+            "BMI": 17.72998941919986,
+            "Verdict": "Under Weight"
+        }
+    },
+    "Patient_5": {
+        "Patient_id": 5,
+        "Patient_Name": "Rahul Kumar Gupta",
+        "Patient_detail": {
+            "First_Name": "Rahul",
+            "Middle_Name": "Kumar",
+            "Last_Name": "Gupta",
+            "Weight": 85,
+            "Height": 172,
+            "Age": 49,
+            "Address": "Chandigarh",
+            "Disease": "Cold",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Metformin",
+            "Time": "Afternoon",
+            "BMI": 28.73174689021093,
+            "Verdict": "Overweight"
+        }
+    },
+    "Patient_6": {
+        "Patient_id": 6,
+        "Patient_Name": "Aditi  Sharma",
+        "Patient_detail": {
+            "First_Name": "Aditi",
+            "Middle_Name": "",
+            "Last_Name": "Sharma",
+            "Weight": 89,
+            "Height": 176,
+            "Age": 44,
+            "Address": "Pune",
+            "Disease": "Asthma",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Amlodipine",
+            "Time": "Morning",
+            "BMI": 28.731921487603305,
+            "Verdict": "Overweight"
+        }
+    },
+    "Patient_7": {
+        "Patient_id": 7,
+        "Patient_Name": "Ankit Singh Sharma",
+        "Patient_detail": {
+            "First_Name": "Ankit",
+            "Middle_Name": "Singh",
+            "Last_Name": "Sharma",
+            "Weight": 53,
+            "Height": 187,
+            "Age": 74,
+            "Address": "Chandigarh",
+            "Disease": "Diabetes",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Metformin",
+            "Time": "Afternoon",
+            "BMI": 15.156281277703107,
+            "Verdict": "Under Weight"
+        }
+    },
+    "Patient_8": {
+        "Patient_id": 8,
+        "Patient_Name": "Aditi  Sharma",
+        "Patient_detail": {
+            "First_Name": "Aditi",
+            "Middle_Name": "",
+            "Last_Name": "Sharma",
+            "Weight": 63,
+            "Height": 170,
+            "Age": 36,
+            "Address": "Chandigarh",
+            "Disease": "Cold",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Paracetamol",
+            "Time": "Afternoon",
+            "BMI": 21.79930795847751,
+            "Verdict": "Normal"
+        }
+    },
+    "Patient_9": {
+        "Patient_id": 9,
+        "Patient_Name": "Rahul Kumar Verma",
+        "Patient_detail": {
+            "First_Name": "Rahul",
+            "Middle_Name": "Kumar",
+            "Last_Name": "Verma",
+            "Weight": 49,
+            "Height": 156,
+            "Age": 72,
+            "Address": "Pune",
+            "Disease": "Hypertension",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Metformin",
+            "Time": "Night",
+            "BMI": 20.134779750164363,
+            "Verdict": "Normal"
+        }
+    },
+    "Patient_10": {
+        "Patient_id": 10,
+        "Patient_Name": "Rahul Singh Patel",
+        "Patient_detail": {
+            "First_Name": "Rahul",
+            "Middle_Name": "Singh",
+            "Last_Name": "Patel",
+            "Weight": 69,
+            "Height": 162,
+            "Age": 23,
+            "Address": "Bangalore",
+            "Disease": "Flu",
+            "Prescription": "Take medicine after meals",
+            "Medicine": "Paracetamol",
+            "Time": "Night",
+            "BMI": 26.291723822588015,
+            "Verdict": "Overweight"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f0f0f0; }
+        .calendar { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 300px; }
+        .header { text-align: center; font-weight: bold; margin-bottom: 10px; font-size: 1.2em; }
+        .grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; text-align: center; }
+        .day-name { font-weight: bold; color: #666; font-size: 0.8em; }
+        .day { padding: 10px; border-radius: 5px; cursor: pointer; }
+        .day:hover { background: #e0e0e0; }
+        .today { background: #007bff; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="calendar">
+    <div class="header" id="monthYear"></div>
+    <div class="grid" id="calendarGrid">
+        <div class="day-name">Sun</div><div class="day-name">Mon</div><div class="day-name">Tue</div>
+        <div class="day-name">Wed</div><div class="day-name">Thu</div><div class="day-name">Fri</div>
+        <div class="day-name">Sat</div>
+        </div>
+</div>
+
+<script>
+    const monthYear = document.getElementById("monthYear");
+    const grid = document.getElementById("calendarGrid");
+    const date = new Date();
+
+    function renderCalendar() {
+        date.setDate(1); // Set to first day of current month
+        
+        const lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+        const firstDayIndex = date.getDay(); // 0 = Sunday, 1 = Monday...
+        const prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();
+
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        monthYear.innerHTML = `${months[date.getMonth()]} ${date.getFullYear()}`;
+
+        let days = "";
+
+        // Previous month's padding days
+        for (let x = firstDayIndex; x > 0; x--) {
+            days += `<div class="day" style="color:#ccc;">${prevLastDay - x + 1}</div>`;
+        }
+
+        // Current month's days
+        for (let i = 1; i <= lastDay; i++) {
+            if (i === new Date().getDate() && date.getMonth() === new Date().getMonth()) {
+                days += `<div class="day today">${i}</div>`;
+            } else {
+                days += `<div class="day">${i}</div>`;
+            }
+        }
+        
+        // Append to the grid (keeping the headers)
+        grid.innerHTML = grid.innerHTML.split('</div>').slice(0, 7).join('</div>') + '</div>' + days;
+    }
+
+    renderCalendar();
+</script>
+
+</body>
+</html>
